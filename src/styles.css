@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+header h1 {
+  font-family: "Montserrat", cursive;
+  color: white;
+  text-align: center;
+}
+.square {
+  display: border-box;
+  padding: 20px;
+  border: 2px solid black;
+}
+.status {
+  padding-bottom: 20px;
+  font-family: "Montserrat", cursive;
+  text-align: center;
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.restart {
+  display: block;
+  padding: 5px;
+  margin: auto;
+  margin-top: 10px;
+  width: max-content;
+  border-radius: 20%;
+}
+.container {
+  display: border-box;
+  margin: auto;
+  margin-top: 100px;
+  width: max-content;
+  border: 5px solid gray;
+  padding: 20px;
+  border-radius: 5%;
+  background-color: grey;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
